@@ -8,9 +8,9 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Whi",
-  title: "Hi all, I'm Will",
-  subTitle: emoji("I'm a sophomore Mechanical Engineering and CS student with experience in robotics, "+
-      "3D design, and some various software development."),
+  title: "Hi, I'm Will",
+  subTitle: emoji("I'm a sophomore at Duke University studying Mechanical Engineering and Computer Science student with experience in robotics, "+
+      "3D design, and hardware & software development."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -31,7 +31,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),

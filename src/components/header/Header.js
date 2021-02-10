@@ -25,11 +25,7 @@ function Header() {
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          }
-          <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          <li>
+          }<li>
             <a href="#projects">Projects</a>
           </li>
           <li>
