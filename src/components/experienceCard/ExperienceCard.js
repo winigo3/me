@@ -3,6 +3,11 @@ import "./ExperienceCard.css";
 import ColorThief from "colorthief";
 
 export default function ExperienceCard({ cardInfo }) {
+  function open(url) {
+    var newWindow = window.open(url);
+    newWindow.focus();
+  }
+
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
@@ -26,7 +31,7 @@ export default function ExperienceCard({ cardInfo }) {
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
-        
+
         <img crossOrigin={"anonymous"} ref={imgRef} className="experience-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/>
       </div>
       <div className="experience-text-details">

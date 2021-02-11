@@ -20,18 +20,18 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <Header />
+          {/*<Header />*/}
         <Greeting />
         <Skills />
         <StackProgress />
         <WorkExperience />
-        <Projects />
-        <StartupProject />
+        {/* <Projects /> */}
+        {/*<StartupProject />*/}
         <Achievement />
         {/* <Blogs />
         <Talks />
-        <Podcast /> */}
-        <Twitter />
+        <Podcast />
+        <Twitter /> */}
         <Profile />
         <Footer />
         <Top />

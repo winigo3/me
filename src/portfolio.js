@@ -3,22 +3,24 @@
 
 // Your Summary And Greeting Section
 
+//CREDIT TO SAADPASTA at the bottom (saadpasta.github.io)
+
 import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Whi",
   title: "Hi, I'm Will",
-  subTitle: emoji("I'm a sophomore at Duke University studying Mechanical Engineering and Computer Science student with experience in robotics, "+
-      "3D design, and hardware & software development."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("I'm an engineer and entrepreneur. I'm passionate about mechatronics and IoT, especially how they relate to sports and gaming." +
+  " I also truly love designing and building things, no matter the industry, from the ground up."),
+  resumeLink: "https://drive.google.com/file/d/1kbFLviALwIOV5ck0nc_tsOkn_0UNS6ib/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/winigo3",
+  //github: "https://github.com/winigo3",
   linkedin: "https://www.linkedin.com/in/williaminigo/",
   gmail: "winigo3@gmail.com",
   /*gitlab: "https://gitlab.com/saadpasta",
@@ -31,12 +33,15 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Background",
+  subTitle: ""+
+      "",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ I'm a sophomore at Duke University studying Mechanical Engineering and Computer Science student with experience in robotics, "+
+        "3D design, and hardware & software development."),
+    emoji("⚡ Although I'm an engineer by trade, I also find meaning in fostering connection with my friends and colleagues. I love exploring "+
+          "the relationship between tech and non-technical fields, and seeing how I can bring my variety of interests together."),
+    emoji("⚡ When I'm not working, I'm probably playing soccer, baking a random type of dessert, or just listening to music and relaxing (and recently trying to improve my chess.com blitz rating).")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -104,16 +109,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Physical prototyping and design",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Programming",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Team Management",
+      progressPercentage: "80%"
     }
   ]
 };
@@ -125,29 +130,28 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Hardware & Software Development Intern",
+      company: "Mobius Materials",
+      companylogo: require("./assets/images/logo2.jpg"),
+      date: "May 2020 – Jan 2021",
+      desc: "Built basis for intiial web stack, created counterfeit IC detection machine, and performed research about potential testing methods",
+      descBullets: ["Company Site: mobiusmaterials.com"]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Design Intern",
+      company: "Protect3d",
+      companylogo: require("./assets/images/protect3dlogo.png"),
+      date: "Oct 2019 – May 2020",
+      desc: "Designed and manufactured custom-fitting, 3D printed protective pads using Fusion 360 and Formlabs Form 2 suite, created beginning of order automation processing system",
+      descBullets: ["Company Site: protect3dpads.com", "A rendering of my design for an AC joint pad: bit.ly/whi_design"]
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Hardware Engineer",
+      company: "KORA (Duke Innovation Studio)",
+      companylogo: require("./assets/images/is_logo.jpg"),
+      date: "Jan 2021 – Present",
+      desc: "Lead hardware engineer in working to bring smart technology to the operating room, beginning by creating smart lighting",
+      descBullets: ["Company Site: dukeinnovation.studio"]
     },
   ]
 };
@@ -165,16 +169,16 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Some Random Designs",
+  subtitle: "SOME DESIGNS OF PRODUCTS I HAVE MADE IN THE PAST COUPLE OF YEARS (Click on the image to either see the company's site or more info on the related project",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/ac_rend.png"),
+      link: "https://www.protect3dpads.com/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/ARMScropped.jpeg"),
+      link: "https://drive.google.com/file/d/1yph2duZf7xyZqfzPjwxYIRKDd3genUNV/view?usp=sharing"
     }
   ]
 };
@@ -183,34 +187,30 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Projects and Other"),
+  subtitle: "Just Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Shoulder Reduction Simulation Model",
+      subtitle: "Developed a model and led a team of engineers in developing a medical simulation model in cooperation with Duke Engineering and Duke Hospital. Won the PDMA Innovate Carolina competition and was featured in the Dean's memo."+
+          "See below for the beginning of a grant proposal which details its tech value",
+      image: require("./assets/images/ARMScropped.jpeg"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Expanded Description", url: "https://drive.google.com/file/d/1yph2duZf7xyZqfzPjwxYIRKDd3genUNV/view?usp=sharing" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Project Edge",
+      subtitle: "Over three summers, moved from participant to admin team member and finally project director. Organized and led hackathon-style design sprint for over 150 incoming freshmen while helping them transition successfully into college and learn about I&E and design.",
+      image: require("./assets/images/pedgelogo.PNG"),
+      footerLink: [{ name: "Learn More about pEdge", url: "https://studentaffairs.duke.edu/new-students/preorientation-programs/project-edge" }]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Duke Men's Club Soccer",
+      subtitle: "Starting goalkeeper and current Vice President - Currently creating a return to play plan for the roster of over 60 players I have constructed and redesigning merchandise for the club. This is one of my favorite activites, as I believe it is the best way to take breaks from work and stress.",
+      image: require("./assets/images/dmcslogo.jpg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
     }
   ]
