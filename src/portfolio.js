@@ -22,7 +22,7 @@ const socialMediaLinks = {
 
   //github: "https://github.com/winigo3",
   linkedin: "https://www.linkedin.com/in/williaminigo/",
-  gmail: "winigo3@gmail.com",
+  gmail: "whi@duke.edu",
   /*gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -267,7 +267,7 @@ const contactInfo = {
   title: emoji("Contact Info"),
 /* subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.", */
   number: "434-760-3439",
-  email_address: "winigo3@gmail.com"
+  email_address: "whi@duke.edu"
 };
 
 //Twitter Section
